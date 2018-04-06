@@ -9,9 +9,7 @@ body {
     font-family: 'OpenSans', Arial, sans-serif;
     font-size: 13px;
     color: #262626;
-    background: url('../img/background-picture.jpg') no-repeat center top, 
-    url('../img/background-map.png') repeat-y center center,
-     url('../img/background-picture.jpg') no-repeat center bottom;
+    background: url('../img/background-picture.jpg') no-repeat center top, url('../img/background-map.png') repeat-y center center, url('../img/background-picture.jpg') no-repeat center bottom;
     width: 100%;
     display: table;
     background-color: #fff8e9
@@ -244,13 +242,11 @@ input[type="radio"].visually-hidden {
     padding-top: 6px;
 }
 
-.main-afisha h2 {
-    margin-bottom: 80px;
-}
-
 .header-about.second {
     height: 100px;
-    top: 250px;
+    display: flex;
+    right: 134px;
+    top: 110px;
 }
 
 .header-about.second h2 {
@@ -262,7 +258,6 @@ time {
     display: block;
     color: #040480;
     font-size: 18px;
-    line-height: 46px;
     font-weight: bold;
 }
 
@@ -501,7 +496,7 @@ section.people {
     height: 113px;
     width: 90px;
     position: absolute;
-    right:0;
+    right: 0;
 }
 
 .social-btn-fb {
@@ -511,9 +506,11 @@ section.people {
 .footer-bottom {
     display: flex;
 }
+
 .footer-bottom {
-   position: relative;
+    position: relative;
 }
+
 .footer-bottom p {
     font-size: 29px;
     line-height: 46px;
